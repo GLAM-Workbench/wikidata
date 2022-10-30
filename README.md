@@ -1,12 +1,14 @@
 # Wikidata
 
-Current version: [v0.0.0](https://github.com/GLAM-Workbench/wikidata/releases/tag/v0.0.0)
+Current version: [v1.0.0](https://github.com/GLAM-Workbench/wikidata/releases/tag/v1.0.0)
 
 Tools and examples for working with GLAM information in Wikidata. For more information see the [Wikidata](https://glam-workbench.net/wikidata/) section of the GLAM Workbench.
 
 ## Notebook topics
 
-* [Notebook title](notebook.ipynb) – this notebook does things
+* [Create a Gannt chart of Australian government departments](agencies-gannt-timeline.ipynb) – visualises life dates of government departments
+* [Create a network graph visualisation of Australian government departments](govt-agencies-network.ipynb) – visualises changes in Australian government departments over time
+* [Visualise the connections of a single Australian government agency](single-agency-network.ipynb)
 
 See the [GLAM Workbench for more details](https://glam-workbench.github.io/wikidata/).
 

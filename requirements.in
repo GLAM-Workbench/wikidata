@@ -4,3 +4,11 @@ voila-material @ git+https://github.com/GLAM-Workbench/voila-material.git
 pandas
 requests
 altair
+sparqlwrapper
+pyvis
+arrow
+wordcloud
+python-slugify
+requests-cache
+tqdm
+ipywidgets
