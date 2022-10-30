@@ -83,3 +83,4 @@ See the GLAM Workbench or [Zenodo](https://doi.org/10.5281/zenodo.3521724) for u
 
 This repository is part of the [GLAM Workbench](https://glam-workbench.github.io/).  
 
+The development of the Wikidata section of the GLAM Workbench was supported by [Wikimedia Australia](https://wikimedia.org.au/wiki/Wikimedia_Australia).

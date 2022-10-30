@@ -12,3 +12,4 @@ python-slugify
 requests-cache
 tqdm
 ipywidgets
+python-dotenv
