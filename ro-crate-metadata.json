@@ -9,7 +9,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2025-08-24T05:03:39+00:00",
+            "datePublished": "2025-08-24T13:15:55+00:00",
             "description": "",
             "hasPart": [
                 {
@@ -28,6 +28,9 @@
             "license": {
                 "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
             },
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/wikidata/"
+            },
             "name": "wikidata"
         },
         {
@@ -45,6 +48,12 @@
             "@type": "CreativeWork",
             "name": "CC0 Public Domain Dedication",
             "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+            "@id": "https://glam-workbench.net/wikidata/",
+            "@type": "CreativeWork",
+            "name": "Wikidata - GLAM Workbench",
+            "url": "https://glam-workbench.net/wikidata/"
         },
         {
             "@id": "https://www.python.org/downloads/release/python-31211/",
@@ -73,6 +82,9 @@
             "isPartOf": {
                 "@id": "https://github.com/GLAM-Workbench/wikidata/"
             },
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/wikidata/agencies-gannt-timeline/"
+            },
             "name": "Create a Gannt chart of Australian government departments",
             "programmingLanguage": {
                 "@id": "https://www.python.org/downloads/release/python-31211/"
@@ -95,6 +107,12 @@
             "@type": "CreativeWork",
             "name": "timsherratt.au - timsherratt.au",
             "url": "https://timsherratt.au"
+        },
+        {
+            "@id": "https://glam-workbench.net/wikidata/agencies-gannt-timeline/",
+            "@type": "CreativeWork",
+            "name": "Create a Gannt chart of Australian government departments - GLAM Workbench",
+            "url": "https://glam-workbench.net/wikidata/agencies-gannt-timeline/"
         },
         {
             "@id": "https://glam-workbench.net/wikidata/examples/agencies-gannt-timeline.html",
@@ -125,6 +143,9 @@
             "isPartOf": {
                 "@id": "https://github.com/GLAM-Workbench/wikidata/"
             },
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/wikidata/govt-agencies-network/"
+            },
             "name": "Create a network graph visualisation of Australian government departments",
             "programmingLanguage": {
                 "@id": "https://www.python.org/downloads/release/python-31211/"
@@ -133,6 +154,12 @@
             "workExample": {
                 "@id": "https://glam-workbench.net/wikidata/examples/govt-agencies-network.html"
             }
+        },
+        {
+            "@id": "https://glam-workbench.net/wikidata/govt-agencies-network/",
+            "@type": "CreativeWork",
+            "name": "Create a network graph visualisation of Australian government departments - GLAM Workbench",
+            "url": "https://glam-workbench.net/wikidata/govt-agencies-network/"
         },
         {
             "@id": "https://glam-workbench.net/wikidata/examples/govt-agencies-network.html",
@@ -157,11 +184,20 @@
             "isPartOf": {
                 "@id": "https://github.com/GLAM-Workbench/wikidata/"
             },
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/wikidata/visualise_all_people_ids/"
+            },
             "name": "Visualise the network of Australian people identifiers",
             "programmingLanguage": {
                 "@id": "https://www.python.org/downloads/release/python-31211/"
             },
             "url": "https://github.com/GLAM-Workbench/wikidata/blob/master/visualise_all_people_ids.ipynb"
+        },
+        {
+            "@id": "https://glam-workbench.net/wikidata/visualise_all_people_ids/",
+            "@type": "CreativeWork",
+            "name": null,
+            "url": "https://glam-workbench.net/wikidata/visualise_all_people_ids/"
         },
         {
             "@id": "single-agency-network.ipynb",
@@ -180,11 +216,20 @@
             "isPartOf": {
                 "@id": "https://github.com/GLAM-Workbench/wikidata/"
             },
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/wikidata/single-agency-network/"
+            },
             "name": "Visualise the connections of a single Australian government agency",
             "programmingLanguage": {
                 "@id": "https://www.python.org/downloads/release/python-31211/"
             },
             "url": "https://github.com/GLAM-Workbench/wikidata/blob/master/single-agency-network.ipynb"
+        },
+        {
+            "@id": "https://glam-workbench.net/wikidata/single-agency-network/",
+            "@type": "CreativeWork",
+            "name": "Visualise the connections of a single Australian government agency - GLAM Workbench",
+            "url": "https://glam-workbench.net/wikidata/single-agency-network/"
         }
     ]
 }
