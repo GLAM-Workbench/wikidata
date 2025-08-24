@@ -1,0 +1,190 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "datePublished": "2025-08-24T05:03:39+00:00",
+            "description": "",
+            "hasPart": [
+                {
+                    "@id": "agencies-gannt-timeline.ipynb"
+                },
+                {
+                    "@id": "govt-agencies-network.ipynb"
+                },
+                {
+                    "@id": "visualise_all_people_ids.ipynb"
+                },
+                {
+                    "@id": "single-agency-network.ipynb"
+                }
+            ],
+            "license": {
+                "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "name": "wikidata"
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "@type": "CreativeWork",
+            "name": "CC0 Public Domain Dedication",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+            "@id": "https://www.python.org/downloads/release/python-31211/",
+            "@type": [
+                "ComputerLanguage",
+                "SoftwareApplication"
+            ],
+            "name": "Python 3.12.11",
+            "url": "https://www.python.org/downloads/release/python-31211/",
+            "version": "3.12.11"
+        },
+        {
+            "@id": "agencies-gannt-timeline.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": {
+                "@id": "https://orcid.org/0000-0001-7956-4498"
+            },
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook creates a Gannt-style chart showing the creation and dissolution dates of Australian government departments.",
+            "encodingFormat": "application/x-ipynb+json",
+            "isPartOf": {
+                "@id": "https://github.com/GLAM-Workbench/wikidata/"
+            },
+            "name": "Create a Gannt chart of Australian government departments",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31211/"
+            },
+            "url": "https://github.com/GLAM-Workbench/wikidata/blob/master/agencies-gannt-timeline.ipynb",
+            "workExample": {
+                "@id": "https://glam-workbench.net/wikidata/examples/agencies-gannt-timeline.html"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7956-4498",
+            "@type": "Person",
+            "mainEntityOfPage": {
+                "@id": "https://timsherratt.au"
+            },
+            "name": "Sherratt, Tim"
+        },
+        {
+            "@id": "https://timsherratt.au",
+            "@type": "CreativeWork",
+            "name": "timsherratt.au - timsherratt.au",
+            "url": "https://timsherratt.au"
+        },
+        {
+            "@id": "https://glam-workbench.net/wikidata/examples/agencies-gannt-timeline.html",
+            "@type": "CreativeWork",
+            "name": "View the interactive chart",
+            "url": "https://glam-workbench.net/wikidata/examples/agencies-gannt-timeline.html"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/wikidata/",
+            "@type": "CreativeWork",
+            "name": "GitHub - GLAM-Workbench/wikidata",
+            "url": "https://github.com/GLAM-Workbench/wikidata/"
+        },
+        {
+            "@id": "govt-agencies-network.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": {
+                "@id": "https://orcid.org/0000-0001-7956-4498"
+            },
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook visualises changes in Australian government departments over time, using data from Wikidata. It creates a hierarchically-ordered network graph where each agency is represented as a node whose position and colour is determined by the decade in which the agency was created.",
+            "encodingFormat": "application/x-ipynb+json",
+            "isPartOf": {
+                "@id": "https://github.com/GLAM-Workbench/wikidata/"
+            },
+            "name": "Create a network graph visualisation of Australian government departments",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31211/"
+            },
+            "url": "https://github.com/GLAM-Workbench/wikidata/blob/master/govt-agencies-network.ipynb",
+            "workExample": {
+                "@id": "https://glam-workbench.net/wikidata/examples/govt-agencies-network.html"
+            }
+        },
+        {
+            "@id": "https://glam-workbench.net/wikidata/examples/govt-agencies-network.html",
+            "@type": "CreativeWork",
+            "name": "View the interactive graph",
+            "url": "https://glam-workbench.net/wikidata/examples/govt-agencies-network.html"
+        },
+        {
+            "@id": "visualise_all_people_ids.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": {
+                "@id": "https://orcid.org/0000-0001-7956-4498"
+            },
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "Wikidata uses a wide range of external identifiers to help describe and identify people. This notebook explores the range of identifiers applied to Australian people in Wikidata and attempts to visualise their use and connections.",
+            "encodingFormat": "application/x-ipynb+json",
+            "isPartOf": {
+                "@id": "https://github.com/GLAM-Workbench/wikidata/"
+            },
+            "name": "Visualise the network of Australian people identifiers",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31211/"
+            },
+            "url": "https://github.com/GLAM-Workbench/wikidata/blob/master/visualise_all_people_ids.ipynb"
+        },
+        {
+            "@id": "single-agency-network.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": {
+                "@id": "https://orcid.org/0000-0001-7956-4498"
+            },
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "Select an agency from the dropdown list to view its predecessors and successors as a network graph. Each agency is represented as a node whose position and colour is determined by the decade in which the agency was created. The size of the node indicates how long the agency was in existence, while edges between nodes connect agencies to their successors.",
+            "encodingFormat": "application/x-ipynb+json",
+            "isPartOf": {
+                "@id": "https://github.com/GLAM-Workbench/wikidata/"
+            },
+            "name": "Visualise the connections of a single Australian government agency",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31211/"
+            },
+            "url": "https://github.com/GLAM-Workbench/wikidata/blob/master/single-agency-network.ipynb"
+        }
+    ]
+}

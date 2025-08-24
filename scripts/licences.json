@@ -1,0 +1,40 @@
+{
+    "default": {
+        "@id": "https://spdx.org/licenses/MIT",
+        "name": "MIT License",
+        "@type": "CreativeWork",
+        "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "mit": {
+        "@id": "https://spdx.org/licenses/MIT",
+        "name": "MIT License",
+        "@type": "CreativeWork",
+        "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "metadata": {
+        "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "name": "CC0 Public Domain Dedication",
+        "@type": "CreativeWork",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "cc0": {
+        "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "name": "CC0 Public Domain Dedication",
+        "@type": "CreativeWork",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "no_known_copyright": {
+        "@id": "http://rightsstatements.org/vocab/NKC/1.0/",
+        "@type": "CreativeWork",
+        "description": "The organization that has made the Item available reasonably believes that the Item is not restricted by copyright or related rights, but a conclusive determination could not be made.",
+        "name": "No Known Copyright",
+        "url": "http://rightsstatements.org/vocab/NKC/1.0/"
+    },
+    "copyright_not_evaluated": {
+        "@id": "http://rightsstatements.org/vocab/CNE/1.0/",
+        "@type": "CreativeWork",
+        "description": "The copyright and related rights status of this Item has not been evaluated.",
+        "name": "Copyright Not Evaluated",
+        "url": "http://rightsstatements.org/vocab/CNE/1.0/"
+    }
+}
